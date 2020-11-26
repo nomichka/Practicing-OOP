@@ -1,3 +1,5 @@
+package Friend;
+
 public class Friend {
     // States
     private String name;
