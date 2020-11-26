@@ -1,7 +1,7 @@
 public class Friend {
     // States
-    public String name;
-    public String greeting; // their greeting over text
+    private String name;
+    private String greeting; // their greeting over text
     // Constructor
     public Friend(String name, String greeting) {
         // "this" keyword references the object
@@ -12,5 +12,23 @@ public class Friend {
     // Behaviors
     public void greet() {
         System.out.println(name + " says: " + greeting);
+    }
+
+    // Getters
+    public String getName() {
+        return name;
+    }
+
+    public String getGreeting() {
+        return greeting;
+    }
+
+    // Setters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setGreeting(String greeting) {
+        this.greeting = greeting;
     }
 }

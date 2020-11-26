@@ -5,5 +5,8 @@ public class Runner {
         friend1.greet();
         System.out.println("--------------------");
         friend2.greet();
+        System.out.println("--------------------");
+        friend1.setName("Meh friend");
+        friend1.greet();    
     }
 }
